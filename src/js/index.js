@@ -8,5 +8,10 @@ import "../styles/index.css";
 //import your own components
 import Home from "./component/home.jsx";
 
+let counter = 0;
+setInterval(function () {
+	console.log(counter);
+	ReactDOM.render(<Home seconds={counter} />, document.querySelector("#app"));
+	counter++;
+}, 1000);
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
