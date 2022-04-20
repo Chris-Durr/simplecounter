@@ -13,5 +13,5 @@ setInterval(function () {
 	console.log(counter);
 	ReactDOM.render(<Home seconds={counter} />, document.querySelector("#app"));
 	counter++;
-}, 1000);
+}, 100);
 //render your react application
