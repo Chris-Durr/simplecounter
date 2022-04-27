@@ -8,24 +8,26 @@ const Home = (props) => {
 	let number = props.seconds.toString();
 	return (
 		<div className="container">
-			<div className="clockcounter d-flex justify-content-center">
+			<div
+				id="box"
+				className="clockcounter d-flex justify-content-center">
 				<i className="fa-solid fa-clock"></i>
-				<div className="dias">
+				<div id="box" className="dias">
 					{number[number.length - 4]
 						? number[number.length - 4]
 						: "0"}
 				</div>
-				<div className="horas">
+				<div id="box" className="horas">
 					{number[number.length - 3]
 						? number[number.length - 3]
 						: "0"}
 				</div>
-				<div className="minutos">
+				<div id="box" className="minutos">
 					{number[number.length - 2]
 						? number[number.length - 2]
 						: "0"}
 				</div>
-				<div className="segundos">
+				<div id="box" className="segundos">
 					{number[number.length - 1]
 						? number[number.length - 1]
 						: "0"}

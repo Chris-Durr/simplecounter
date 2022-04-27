@@ -3,8 +3,16 @@
     background-color: black;
     color: white;
     border:solid 1px;
-    margin-top: 20px;
-    height: 150px;
+    margin-top: 10%;
+    margin-left: 25%;
+    height: auto;
     font-size: 100px;
-    width: 500px;
+    width: 450px;
+
+}
+
+#box{
+    border: 10px double rgb(119, 119, 119);
+    padding-left: 5px;
+    padding-right: 5px;
 }
